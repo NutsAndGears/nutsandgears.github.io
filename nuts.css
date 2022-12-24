@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #ffffff;
+    color: #000;
+}
+
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.header p {
+    margin-top: 10px;
+    color: solid black;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.about {
+    margin: 50px;
+    padding: 50px;
+    padding-top: 0%;
+    text-align: center;
+    width: 30%;
+    float: left;
+}
+
+.subsidiaries {
+    margin: 50px;
+    padding: 50px;
+    padding-top: 0%;
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+
+.contact {
+    margin-left: 50px;
+    padding: 50px;
+    padding-top: 0%;
+    text-align: center;
+    width: 30%;
+    float: left;
+}
+
+.subsidiaries li {
+    margin-top: 10px;
+}
+
+.subsidiaries p {
+    animation: blinking 1s infinite;
+}
+
+@keyframes blinking {
+    0% {
+        color: rgb(247, 6, 6);
+    }
+    100% {
+        color: rgb(244, 243, 247);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header h1 {
+        font-size: medium;
+    }
+    .header p {
+        font-size: small;
+        text-indent: 50px;
+        text-align: left right;
+        letter-spacing: px;
+    }
+    .about {
+        margin: 20px;
+        padding: 20px;
+        padding-top: 0%;
+        text-align: center;
+        float: left;
+    }
+    .about h2 {
+        font-size: medium;
+    }
+    .subsidiaries {
+        margin: 20px;
+        padding: 20px;
+        padding-top: 0%;
+        text-align: center;
+        float: right;
+    }
+    .subsidiaries h2 {
+        font-size: medium;
+    }
+    .contact {
+        margin-left: 20px;
+        padding: 20px;
+        padding-top: 0%;
+        text-align: center;
+        float: left;
+    }
+    .contact h2 {
+        font-size: 14.5px;
+    }
+    .about p {
+        font-size: small;
+    }
+    .subsidiaries ul {
+        font-size: small;
+    }
+    .contact li {
+        font-size: x-small;
+    }
+}
